@@ -1,0 +1,44 @@
+
+import java.util.Scanner;
+
+public class CarRental{
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+
+        System.out.print("Aracın markası: ");
+        String carBrand = input.nextLine();
+
+        System.out.print("Aracın modeli: ");
+        String carModel = input.nextLine();
+
+        System.out.print("Aracın rengi: ");
+        String carColor = input.nextLine();
+
+        System.out.print("Aracın yılı: ");
+        int carYear = input.nextInt();
+
+
+        System.out.print("Kiralama süresi (gün): ");
+        int rentalPeriod = input.nextInt();
+
+        System.out.print("Günlük ücret: ");
+        double dailyRate = input.nextDouble();
+
+
+        double totalPrice = rentalPeriod * dailyRate;
+
+
+        System.out.println("--- ARAÇ KİRALAMA BİLGİLERİ ---");
+        System.out.println("Marka: " + carBrand);
+        System.out.println("Model: " + carModel);
+        System.out.println("Renk: " + carColor);
+        System.out.println("Yıl: " + carYear);
+        System.out.println("Kiralama süresi: " + rentalPeriod + " gün");
+        System.out.println("Toplam ücret: " + totalPrice + " TL");
+    }
+
+}
+
+}
