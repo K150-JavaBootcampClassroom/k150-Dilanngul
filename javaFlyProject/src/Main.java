@@ -1,5 +1,4 @@
 
-    package Havalimani.Odev;
     import java.util.List;
 
     public class Havalimani {
@@ -40,9 +39,7 @@
             this.sehir = sehir;
         }
 
-        public static  List<Ucus> getirUcuslar() throws IOException {
-            return Yonetici.getirUcus();
-
+        public static  List<Ucus> 
         }
 
 
