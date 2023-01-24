@@ -1,5 +1,4 @@
 
-  package havalimani.odev;
   import java.util.Date;
 
 public class Kisi {
