@@ -1,5 +1,4 @@
 
-package havalimani.odev;
 
 
 public class Koltuk {
