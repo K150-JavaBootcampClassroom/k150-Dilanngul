@@ -1,10 +1,8 @@
-package havalimani.odev;
+
 import java.util.Date;
 
 public class Ucus {
     int ucusNo;
-    Havalimani kalkis;
-    Havalimani varis;
     Ucak ucak;
     Date kalkisSaat;
     Date varisSaat;
@@ -18,22 +16,7 @@ public class Ucus {
     public void setUcusNo(int ucusNo) {
         this.ucusNo = ucusNo;
     }
-
-    public Havalimani getKalkis() {
-        return kalkis;
-    }
-
-    public void setKalkis(Havalimani kalkıs) {
-        this.kalkis = kalkıs;
-    }
-
-    public Havalimani getVaris() {
-        return varis;
-    }
-
-    public void setVaris(Havalimani varıs) {
-        this.varis = varıs;
-    }
+    
 
     public Ucak getUcak() {
         return ucak;
